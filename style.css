@@ -13,6 +13,11 @@ nav{
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  width: 100%;
+  
+}
+nav h2{
+    width: 30%;
 }
 .links-container {
   display: flex;
@@ -25,8 +30,13 @@ nav a {
   text-decoration: none;
   padding: 15px;
   font-size: 16px;
+  margin-left: 30px;
+  width: 100%;
 }
-.home-link{
+button{
+  
+}
+.home-link :hover{
   margin-right: auto;
 }
 
@@ -69,7 +79,9 @@ display: none;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    margin-left: 120px;
+    margin-left: 250px;
+    padding: 0;
+    
   }
 
    #sidebar-active:checked ~ .links-container{
