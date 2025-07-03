@@ -17,7 +17,7 @@ nav{
   
 }
 nav h2{
-    width: 30%;
+    width: 20%;
 }
 .links-container {
   display: flex;
@@ -34,6 +34,15 @@ nav a {
   width: 100%;
 }
 button{
+ background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 10px;
   
 }
 .home-link :hover{
@@ -97,6 +106,9 @@ display: none;
   }
   p{
     display: block;
+  }
+  button{
+    display: none;
   }
 }
 
